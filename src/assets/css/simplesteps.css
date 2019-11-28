@@ -1,0 +1,34 @@
+div.steps-container {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  
+  div.flex-step-containers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  div.flex-step-containers div.flex-items {
+    background-color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+  }
+  
+  div.flex-step-containers div.flex-items p {
+    color: #303133;
+  }
+  
+  div.flex-step-containers div.flex-items span {
+    font-size: 72px;
+    color: #d14836;
+    line-height: 50px;
+    font-weight: 300;
+  }
+  
+  .shadow-lg {
+      box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important;
+  }

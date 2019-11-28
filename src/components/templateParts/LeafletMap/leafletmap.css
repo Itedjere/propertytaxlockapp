@@ -1,0 +1,8 @@
+
+
+@import url('~react-leaflet-markercluster/dist/styles.min.css');
+
+.markercluster-map {
+    width: 100%;
+    height: 500px;
+}
